@@ -49,8 +49,8 @@
     "done": "echo '\\033[32m[@picocss/pico] ✨ Done\\033[0m'"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.23",
-    "caniuse-lite": "1.0.30001765",
+    "autoprefixer": "^10.4.24",
+    "caniuse-lite": "1.0.30001767",
     "clean-css-cli": "^5.6.3",
     "css-declaration-sorter": "^7.3.1",
     "nodemon": "^3.1.11",
@@ -58,8 +58,8 @@
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "postcss-scss": "^4.0.9",
-    "prettier": "^3.8.0",
-    "sass": "^1.97.2"
+    "prettier": "^3.8.1",
+    "sass": "^1.97.3"
   },
   "browserslist": [
     "defaults"
