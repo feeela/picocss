@@ -1051,18 +1051,19 @@ main {
 .pico kbd,
 .pico samp {
   display: inline-block;
-  padding: 0.375rem;
+  padding: 0.125rem 0.375rem;
+  vertical-align: middle;
 }
 
 .pico pre {
   display: block;
   margin-bottom: var(--pico-spacing);
-  overflow-x: auto;
 }
 .pico pre > code,
 .pico pre > samp {
   display: block;
   padding: var(--pico-spacing);
+  overflow-x: auto;
   background: none;
   line-height: var(--pico-line-height);
 }
