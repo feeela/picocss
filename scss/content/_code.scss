@@ -63,9 +63,9 @@
     > samp {
       display: block;
       padding: var(#{$css-var-prefix}spacing);
+      overflow-x: auto;
       background: none;
       line-height: var(#{$css-var-prefix}line-height);
-      overflow-x: auto;
     }
   }
 

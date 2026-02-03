@@ -253,15 +253,15 @@
   // Aria-invalid
   #{$parent-selector} :where(input, select, textarea) {
     &:not(
-        [type="checkbox"],
-        [type="radio"],
-        [type="date"],
-        [type="datetime-local"],
-        [type="month"],
-        [type="time"],
-        [type="week"],
-        [type="range"]
-      ) {
+      [type="checkbox"],
+      [type="radio"],
+      [type="date"],
+      [type="datetime-local"],
+      [type="month"],
+      [type="time"],
+      [type="week"],
+      [type="range"]
+    ) {
       &[aria-invalid] {
         @if $enable-important {
           padding-right: calc(
