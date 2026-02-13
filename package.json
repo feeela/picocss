@@ -46,7 +46,8 @@
     "prebuild:autoprefix": "echo '[@picocss/pico] ✨ Autoprefix'",
     "prebuild:minify": "echo '[@picocss/pico] ✨ Minify'",
     "start": "echo '\\033[96m[@picocss/pico] ✨ Start\\033[0m'",
-    "done": "echo '\\033[32m[@picocss/pico] ✨ Done\\033[0m'"
+    "done": "echo '\\033[32m[@picocss/pico] ✨ Done\\033[0m'",
+    "convert-icons": "node scripts/convert-svg-icons"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.24",

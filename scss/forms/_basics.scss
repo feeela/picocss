@@ -1,5 +1,6 @@
 @use "sass:map";
 @use "../settings" as *;
+@use "../themes/icons" as *;
 
 @if map.get($modules, "forms/basics") {
   // Helper
@@ -285,10 +286,12 @@
 
       &[aria-invalid="false"]:not(select) {
         background-image: var(#{$css-var-prefix}icon-valid);
+        background-image: $icon-valid;
       }
 
       &[aria-invalid="true"]:not(select) {
         background-image: var(#{$css-var-prefix}icon-invalid);
+        background-image: $icon-invalid;
       }
     }
 
