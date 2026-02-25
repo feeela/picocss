@@ -101,6 +101,17 @@
     }
   }
 
+  @if $enable-classes {
+    #{$parent-selector} details.marker-start {
+      summary::after {
+        float: left;
+        background-position: left center;
+        margin-inline-start: 0;
+        margin-inline-end: calc(var(#{$css-var-prefix}spacing, 1rem) * 0.5);
+      }
+    }
+  }
+
   [dir="rtl"] {
     #{$parent-selector} details {
       summary {
@@ -109,6 +120,15 @@
         &::after {
           float: left;
           background-position: left center;
+        }
+      }
+
+      @if $enable-classes {
+        &.marker-start {
+          summary::after {
+            float: right;
+            background-position: right center;
+          }
         }
       }
     }
